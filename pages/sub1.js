@@ -14,7 +14,7 @@ function index() {
       <div className="font_Noto">
         Hello Next Noto
       </div>
-      
+      {/* test */}
     </>
   );
 }
