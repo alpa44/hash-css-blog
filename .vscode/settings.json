@@ -1,13 +1,5 @@
 {
   "workbench.colorCustomizations": {
-    "tab.unfocusedActiveBorder": "#fff0",
-    "tab.activeBorder": "#E91E63",
-    "titleBar.activeBackground": "#E91E63",
-    "titleBar.activeForeground": "#000000",
-    "activityBar.background": "#E91E63",
-    "activityBar.foreground": "#000000",
-    "statusBar.background": "#E91E63",
-    "statusBar.foreground": "#000000"
-  },
-  "window.title": "~[PAGES]~${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${separator}${activeEditorShort}${separator}${rootName}"
+    "tab.unfocusedActiveBorder": "#fff0"
+  }
 }

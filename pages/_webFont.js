@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function index() {
+function _webFont() {
   return (
     <>
       <style jsx="true" global>{`
@@ -19,4 +19,4 @@ function index() {
   );
 }
 
-export default index;
+export default _webFont;
