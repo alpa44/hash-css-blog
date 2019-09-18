@@ -1,18 +1,20 @@
 import React from 'react'
 
 
-function NavMain() {
+function FontTemplate() {
 
   return (
     <>
     <div className={ Container }>
-      main nav
+
+      font template
+
     </div>
     </>
   );
 }
 
-export default NavMain;
+export default FontTemplate;
 
 // -------------------------------------------------
 //                      style

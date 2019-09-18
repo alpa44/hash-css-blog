@@ -1,5 +1,6 @@
 import React from 'react'
-import MainPage from './MainPage'
+import NavMain from '../components/menu/NavMain'
+import MainView from '../views/MainView'
 
 function index() {
 
@@ -11,8 +12,8 @@ function index() {
       .font_play { font-family: 'Playfair Display SC', serif; }
     `}
     </style>
-
-      <MainPage/>
+      <NavMain/>
+      <MainView/>
 
     </>
   );

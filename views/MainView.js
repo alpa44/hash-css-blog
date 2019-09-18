@@ -1,11 +1,8 @@
 import React, { useRef, useEffect } from 'react'
-import Head from 'next/head'
+import Link from 'next/link'
 import { useWindowScroll } from 'react-use';
 
-import NavMain from '../components/menu/NavMain'
-
-
-function MainPage() {
+function MainView() {
   const {x, y} = useWindowScroll();
 
   useEffect(() => {
@@ -15,8 +12,8 @@ function MainPage() {
   return (
     <>
     <div className={ Container }>
-      <NavMain/>
-      HCSS Main Page
+      HCSS Main View
+      <Link href="/content">
       <div className="x-ver x-ac py50">
         <div className="fxh playfair fs22 mb50 fc-gray600">Card Style 1-1</div>
         <div className="fxv bc-white h350 w200 shadow-l2">
@@ -34,13 +31,14 @@ function MainPage() {
           </div>
         </div>
       </div>
+      </Link>
 
     </div>
     </>
   );
 }
 
-export default MainPage;
+export default MainView;
 
 // -------------------------------------------------
 //                      style

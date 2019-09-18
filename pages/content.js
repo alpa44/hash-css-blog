@@ -1,18 +1,20 @@
 import React from 'react'
 
 
-function NavMain() {
+function index() {
 
   return (
     <>
     <div className={ Container }>
-      main nav
+
+      content page
+
     </div>
     </>
   );
 }
 
-export default NavMain;
+export default index;
 
 // -------------------------------------------------
 //                      style
