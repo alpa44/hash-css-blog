@@ -101,11 +101,11 @@ const Label_link =`
 <!--[ layout ]-->
 <!--[ size ]-->
 <!--[ space ]-->
-  pl30
+  p-pl10 l-pl30 m-pl60
 <!--[ font ]-->
-  fs20
+  fs20 p-fs40
 <!--[ color ]-->
-fc-gray500
+  fc-red100 p-fc-red300 l-fc-red500 m-fc-red700
 <!--[ border ]-->
 <!--[ shadow ]-->
 `
